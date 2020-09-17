@@ -1,0 +1,38 @@
+{
+  "name": "react-native-password-eye",
+  "version": "0.0.7",
+  "description": "A simple and fully customizable React Native component for TextInputs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react component",
+    "react native component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "text input",
+    "text box",
+    "password",
+    "eye",
+    "show password",
+    "hide passeord",
+    "show/hide password"
+  ],
+  "author": "Amir Mousavi",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native-vector-icons": ">6.6.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.63.0"
+  }
+}
