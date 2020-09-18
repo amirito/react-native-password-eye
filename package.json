@@ -1,10 +1,14 @@
 {
   "name": "react-native-password-eye",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A simple and fully customizable React Native component for TextInputs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirito/react-native-password-eye.git"
   },
   "keywords": [
     "react-native",

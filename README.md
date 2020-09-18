@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/react-native-password-eye.svg)](https://badge.fury.io/js/react-native-password-eye)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)
+
 
 # react-native-password-eye
 
