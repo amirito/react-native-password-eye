@@ -12,11 +12,22 @@
 
 ## usage
 
-    import TextBox from 'react-native-password-eye';
+```js
+ import TextBox from 'react-native-password-eye'; 
+ ```
 
 place `<TextBox>` tag wherever you want to have it.
 
-    <TextBox onChangeText={(text) => console.log('onChangeText: ', text)} />
+```js
+<TextBox onChangeText={(text) => console.log('onChangeText: ', text)} />
+```
+
+### Methods
+
+|props  | required |
+|--|--|
+| onChangeText | YES |
+
 
 ### Properties
 
@@ -35,11 +46,35 @@ place `<TextBox>` tag wherever you want to have it.
 | secureTextEntry| `bool` | false|
 | style| `style` | |
 
+#### styles
 
-### Methods
-
-|props  | required |
+|props|description |
 |--|--|
-| onChangeText | YES |
+| containerStyles | styling for view containing the input and the hint message |
+| inputStyle | styling for Input Component |
+| hintStyles | styling for hint text in the bottom of the input |
 
+#### customize icons
+
+|props|description | default value |
+|--|--|--|
+| iconFamily | one of the icon sets of [react-native-vector-icon](https://github.com/oblador/react-native-vector-icons#bundled-icon-sets) | `Feather`|
+| iconSuccess | icon name for success icon | `smile` |
+| iconSuccessColor | icon color for success icon | `#28a745` |
+| iconWarning | icon name for warning icon | `alert-triangle` |
+| iconWarningColor | icon color for warning icon | `#ffc107` |
+| iconAlert | icon name for error icon | `alert-circle` |
+| iconAlertColor | icon color for error icon | `#dc3545` |
+
+example: 
+``` js
+import TextBox from 'react-native-password-eye';
+
+<TextBox 
+	iconFamily={'MaterialCommunityIcons'}
+	iconSuccess={'emoticon-happy-outline'}
+	iconWarning={'alert-outline'}
+	iconAlert={'alert-octagon-outline'}
+/>
+```
 

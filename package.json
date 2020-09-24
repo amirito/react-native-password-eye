@@ -1,6 +1,6 @@
 {
   "name": "react-native-password-eye",
-  "version": "0.0.9",
+  "version": "1.0.2",
   "description": "A simple and fully customizable React Native component for TextInputs",
   "main": "index.js",
   "scripts": {
